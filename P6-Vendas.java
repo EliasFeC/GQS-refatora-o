@@ -46,7 +46,7 @@ public class CadastroVendas {
 
             System.out.println("Digite o valor do produto: ");
             double valor = scanner.nextDouble();
-            scanner.nextLine(); // Consumir a nova linha
+            scanner.nextLine();
 
             Produto produto = new Produto(codigo, nome, tipo, valor);
             cadastro.adicionarProduto(produto);
