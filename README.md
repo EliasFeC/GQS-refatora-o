@@ -11,3 +11,15 @@ ArrayList na classe CadastroVendas para armazenar os produtos, permitindo fácil
 A classe Produto é responsável por armazenar e gerenciar os dados de um produto individual, enquanto a classe CadastroVendas é responsável pelo gerenciamento de múltiplos produtos e pelos cálculos totais.
 O loop while permite a entrada contínua de produtos até que o usuário decida parar, garantindo que o algoritmo possa cadastrar quantos produtos forem necessários.
 Métodos separados calcularTotalSemDesconto e calcularTotalComDesconto na classe CadastroVendas para calcular os totais, mantendo a lógica de cálculo organizada e fácil de entender.
+
+((7))
+(1)
+O código foi estruturado em uma classe única (NomeCompleto) para manter tudo relacionado à funcionalidade de imprimir o nome completo.
+Utilização do JOptionPane.showInputDialog para obter os nomes do usuário de forma interativa, em vez de usar entrada padrão.
+O nome completo é mostrado em uma caixa de diálogo JOptionPane.showMessageDialog.
+(2)
+O código foi organizado em uma classe única (Calculadora) para encapsular toda a funcionalidade relacionada às operações matemáticas.
+Utilização de JOptionPane.showInputDialog para obter os números e a escolha do usuário de forma interativa.
+Inclusão de blocos try-catch para capturar e tratar exceções, como NumberFormatException (caso o usuário não insira um número inteiro) e ArithmeticException (caso de divisão por zero).
+Criação de um método privado realizarOperacao para separar a lógica de cálculo do fluxo principal do programa, melhorando a organização e a legibilidade.
+
